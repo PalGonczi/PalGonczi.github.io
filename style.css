@@ -1,0 +1,113 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.445);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery {
+	height: 576px;
+	width: 1024px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.button-l {
+	width: 10%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mainpicture {
+	width: 80%;
+	height: 80%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.445);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.highlight {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.highlight img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.picdesc {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 25%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.picdesc h2 {
+	padding: 15px;
+	color: white;
+}
+
+.picdesc p {
+	padding: 10px;
+	color: lightgray;
+}
+
+.button-r {
+	width: 10%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.fwards {
+	transform: rotate(180deg);
+}
+
+.navbar {
+	width: 80%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	overflow: hidden;
+}
+
+.photo {
+	height: 80px;
+	width: 72px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: lightgray;
+}
+
+.photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
